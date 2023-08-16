@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #00b2ce;
+    --primary-color2: #EFE0B4;
+}
+
+.nav-wonderful {
+    position: absolute;
+    width: 100vw;
+    z-index: 6;
+    height: max-content;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    padding: 8px 80px;
+    box-sizing: border-box;
+}
+
+.left-nav-wonderful a {
+    color: black;
+}
+
+.nav-wonderful a {
+    color: black;
+}
+
+.left-nav-wonderful2 a {
+    color: rgb(255, 255, 255);
+}
+
+.nav-wonderful .left-nav-wonderful {
+    width: max-content;
+}
+
+.nav-wonderful .right-nav-wonderful {
+    width: max-content;
+}
+
+.nav-wonderful .right-nav-wonderful ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-wonderful .right-nav-wonderful ul li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.list-signin {
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.list-signup {
+    padding: 10px 24px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: white;
+}
+
+
+/* Nav 2 - White */
+
+.nav-wonderful2 {
+    position: absolute;
+    width: 100vw;
+    z-index: 6;
+    height: max-content;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    padding: 10px 80px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.nav-wonderful2 .left-nav-wonderful2 {
+    width: max-content;
+}
+
+.nav-wonderful2 .right-nav-wonderful2 {
+    width: max-content;
+}
+
+.nav-wonderful2 .right-nav-wonderful2 ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-wonderful2 .right-nav-wonderful2 ul li {
+    list-style: none;
+    margin-left: 40px;
+}

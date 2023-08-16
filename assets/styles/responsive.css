@@ -1,0 +1,89 @@
+
+@media screen and (max-width: 750px) {
+    .container-exp {
+        padding: 30px;
+    }
+
+    .top-exp {
+        display: block;
+    }
+
+    .top-right-exp {
+        margin-left: -38px;
+    }
+
+    .top-right-exp div {
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .card-exp {
+        width: 42vw;
+        height: 370px;
+        margin-right: 25px;
+    }
+
+    .rating-exp {
+        display: none;
+    }
+
+    .card-bottom-exp small {
+        display: none;
+    }
+
+    .card-top-exp {
+        height: 65%;
+    }
+
+    .card-bottom-exp {
+        padding: 10px 14px;
+    }
+
+    .card-bottom-exp .title-bottom-exp {
+        display: block;
+    }
+
+    .title-bottom-exp h4 {
+        width: 94%;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .footer-wonderful {
+        padding: 30px;
+    }
+
+    .footer-card {
+        flex-direction: column;
+    }
+
+    .footer-card div {
+        width: 100%;
+    }
+
+    .footer-card button {
+        margin-top: 20px;
+    }
+
+    .footer-body-mz2 {
+        flex-direction: column;
+        margin: 30px;
+        gap: 20px;
+        padding: 0 0;
+    }
+
+    .footer-body-desc-mz2 {
+        width: 100%;
+    }
+
+    .footer-body-list-mz2 {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .footer-body-list-mz2 ul {
+        margin-top: 20px;
+    }
+}
